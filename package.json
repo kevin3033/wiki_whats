@@ -1,0 +1,28 @@
+{
+  "name": "wiki-whats",
+  "version": "1.0.0",
+  "description": "bot de wiki para whats",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin3033/wiki_whats.git"
+  },
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "wikipedia"
+  ],
+  "author": "kevin3033",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevin3033/wiki_whats/issues"
+  },
+  "homepage": "https://github.com/kevin3033/wiki_whats#readme",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "venom-bot": "^3.1.8"
+  }
+}
