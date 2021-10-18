@@ -1,2 +1,2 @@
 # wiki_whats
-bot de wiki para whats
+bot de wikipedia para whatsapp
