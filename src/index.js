@@ -5,7 +5,8 @@ venom.create().then(client => start(client))
 
 function start(client) {
     client.onMessage(async message => {
-        console.log(message)
+        if (message.body[0] != ':')
+            return
         switch (message.body.split(' ')[0]) {
             case ':teste':
                 client.sendText(message.from, ':testado')
